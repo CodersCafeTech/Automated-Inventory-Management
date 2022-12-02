@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Automated Inventory Management</title>
+  <link rel="stylesheet" href="assets/styles/style.css">
+  <link ref="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,600;1,200;1,400;1,600&display=swap" rel="stylesheet">
+  <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-database.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body>
+  <div class="header">
+  </div>
+  <div class="row1-container">
+    <div class="box cyan">
+		<h1>Tilo</h1>
+		<label id="Tilo-count">1</label>
+		<div class="circle">
+			<img src="assets/img/tilo.svg"/>
+		</div>
+    </div>
+
+    <div class="box brown" >
+		<h1>Oreo</h1>
+		<label id="Oreo-count">1</label>
+		<div class="circle">
+			<img src="assets/img/oreo.svg"/>
+		</div>
+    </div>
+
+    <div class="box blue">
+		<h1>Coca Cola</h1>
+		<label id="Coca-Cola-count">1</label>
+		<div class="circle ">
+			<img src="assets/img/coke.svg"/>
+		</div>
+	</div>
+  </div>
+  <div class="row2-container">
+	<div class="box purple">
+		<h1>Bread</h1>
+		<label id="Bread-count">1</label>
+		<div class="circle ">
+			<img src="assets/img/bread.svg"/>
+		</div>
+	  </div>
+    <div class="box orange">
+		<h1>Pringles</h1>
+		<label id="Pringles-count">1</label>
+		<div class="circle">
+			<img src="assets/img/pringles.svg"/>
+		</div>
+    </div>
+	<div class="box pastal-green">
+		<h1>Diary Milk</h1>
+		<label id="Diary-Milk-count">1</label>
+		<div class="circle">
+			<img src="assets/img/diarymilk.svg"/>
+		</div>
+	  </div>
+  </div>
+  <div class="box red notification animated animatedFadeInUp fadeInUp" id="box-notification">
+	<div id="notification"></div>
+  </div>
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
